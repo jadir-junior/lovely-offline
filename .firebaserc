@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "awesome-apress-pwa-6bd9d"
+  },
+  "targets": {
+    "awesome-apress-pwa-6bd9d": {
+      "hosting": {
+        "lovely-offline": [
+          "awesome-apress-pwa-6bd9d"
+        ]
+      }
+    }
+  }
+}
