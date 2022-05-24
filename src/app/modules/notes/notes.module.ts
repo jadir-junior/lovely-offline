@@ -1,5 +1,5 @@
-import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { NoteCardComponent } from './components/note-card/note-card.component';
 import { NoteFormComponent } from './components/notes-form/notes-form.component';
 import { NotesAddComponent } from './notes-add/notes-add.component';
 import { NotesDetailsComponent } from './notes-details/notes-details.component';
@@ -13,6 +13,7 @@ import { SharedModule } from '../shared/shared.module';
     NotesAddComponent,
     NotesDetailsComponent,
     NoteFormComponent,
+    NoteCardComponent,
   ],
   imports: [NotesRoutingModule, SharedModule],
 })
